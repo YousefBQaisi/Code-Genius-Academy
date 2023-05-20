@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/report.css" />
+  </head>
+  <body>
+    <h1>Application Report</h1>
+    <header>
+      <div class="logo-container">
+        <img src="../assest/logo.png" alt="Logo" />
+        <div class="logo-name">C.G.A</div>
+      </div>
+      <div class="header-btn">
+        <input type="submit" value="Logout" id="logbtn" />
+        <div class="theme-toggler">
+          <div class="moon-cover"></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="report">
+        <div class="details">
+          <h2>Personal Details</h2>
+          <p><strong>Name :</strong> <span id="name"></span></p>
+          <p><strong>Email :</strong> <span id="email"></span></p>
+          <p><strong>Phone :</strong> <span id="phone"></span></p>
+          <p><strong>Birth date :</strong> <span id="age"></span></p>
+        </div>
+        <div class="scores">
+          <h2>Test Scores</h2>
+          <p>
+            <strong>English Test Score :</strong>
+            <span id="english-score"></span>
+          </p>
+          <p>
+            <strong>Technical Test Score :</strong>
+            <span id="technical-score"></span>
+          </p>
+          <hr style="box-shadow: 0px 0px 5px 1px var(--deep-blue)" />
+          <p>
+            <strong>Final Result :</strong>
+            <span id="Final-score"></span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-copyright">
+        <i class="fa-regular fa-copyright fa-xl" style="color: #ffffff"></i
+        >Copyright Code Genius Academy: All rights reserved 2027
+      </div>
+      <div class="footer-social-links">
+        <a href="#"
+          ><i class="fa-brands fa-github fa-2xl" style="color: #f7f7f7"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/0b922453a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/report.js"></script>
+    <script src="../js/toogle.js"></script>
+  </body>
+</html>

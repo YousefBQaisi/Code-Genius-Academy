@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="assest/logo.png" alt="Logo" />
+        <div class="logo-name">C.G.A</div>
+      </div>
+      <div class="header-btn">
+        <input type="submit" value=" Login " id="login-btn" />
+        <div class="theme-toggler">
+          <div class="moon-cover"></div>
+        </div>
+      </div>
+    </header>
+    <h2>Create an account</h2>
+    <div class="containerr">
+      <div class="image-container">
+        <img
+          src="https://media.istockphoto.com/id/1185554321/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=is&k=20&c=b-D0PWNKkE6AG5mlFqAwSEJvv9j1jZJ6YiPi4gKyA-M="
+          alt="coding"
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2019/06/17/19/48/source-4280758_960_720.jpg"
+          alt="code"
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076533_960_720.jpg"
+          alt="code2"
+        />
+      </div>
+
+      <div class="form">
+        <label for="">UserName</label>
+        <input type="text" id="user-name" placeholder="ex:mohammad" />
+        <div id="alert-user-name">please enter user name</div>
+        <label for="">EmailAddress</label>
+        <input
+          type="email"
+          id="email-up"
+          placeholder="ex:username@domain.com"
+        />
+        <div id="alert-email-up">email is already used</div>
+        <div id="alert-email-upp">enter the correct email</div>
+        <label for="">Password</label>
+        <div class="input-icons">
+          <i id="eye" class="fa-solid fa-eye-slash"></i>
+          <input type="password" id="password-up" placeholder="ex:a-B$1232" />
+        </div>
+
+        <ul>
+          <li id="1">must have at least one characters uppercase</li>
+          <li id="2">must have at least one characters lowercase</li>
+          <li id="3">must have at least one number</li>
+          <li id="4">must have at least one (*-/#@$!)</li>
+          <li id="5">must length of password +8</li>
+        </ul>
+        <br />
+        <div class="accept">
+          <input type="checkbox" id="checkbox" />
+          <label
+            ><b>I agree to the terms & conditions coding Genius. </b></label
+          >
+        </div>
+        <button id="submit-up">Submit</button>
+        <p class="already">
+          If already have account
+          <a href="./html/signin.html">click here</a>
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-copyright">
+        <i class="fa-regular fa-copyright fa-xl" style="color: #ffffff"></i
+        >Copyright Code Genius Academy: All rights reserved 2027
+      </div>
+      <div class="footer-social-links">
+        <a href="#"
+          ><i class="fa-brands fa-github fa-2xl" style="color: #f7f7f7"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/0b922453a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/toogle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
